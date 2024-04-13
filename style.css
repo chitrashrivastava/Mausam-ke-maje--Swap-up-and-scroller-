@@ -1,0 +1,322 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.page0{
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://images2.minutemediacdn.com/image/upload/c_fill,w_1440,ar_16:9,f_auto,q_auto,g_auto/shape/cover/sport/140069999-ae261a4adb33a946ac93c8404e1bee3f.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.page0>h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 100px;
+    text-align: center;
+    position: relative;
+    z-index: 9;
+}
+.page0>.one{
+    padding-top: 10%;
+    color: transparent;
+    -webkit-text-stroke: 5px peru;
+}
+.page0>.two{
+    background-image: url(https://images.unsplash.com/photo-1541701494587-cb58502866ab?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-stroke: 2px white;
+    color: transparent;
+}
+.page0::after{
+    width: 100% ;
+    height: 100% ;
+    position: absolute;
+    top:0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6); 
+    content: "";
+}
+.page1::after{
+    width: 100% ;
+    height: 100% ;
+    position: fixed;
+    top:0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.4); 
+    content: "";
+}
+.page1{
+    width: 100%;
+    height: 100vh;
+    /* background-color: coral; */
+    background-image:url(https://d1whtlypfis84e.cloudfront.net/guides/wp-content/uploads/2019/07/27114414/Summer-season-1024x576.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+    /* position: relative; */
+    overflow-x: auto ;
+    white-space: nowrap;
+    
+}
+.page1>h1 , .page2>h1, .page3>h1{
+    font-size: 70px;
+    padding-left: 37%;
+    color: transparent;
+    -webkit-text-stroke: 4px  black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position:absolute;
+    z-index: 99;
+}
+.page2{
+    width: 100%;
+    height: 100vh;
+    /* background-color:palevioletred; */
+    background-image:url(https://wallpaperaccess.com/full/982104.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    overflow-x: auto ;
+    white-space: nowrap;
+    /* position: absolute; */
+}
+.page3{
+    width: 100%;
+    height: 100vh;
+    /* background-color: bisque; */
+    background-image:url(https://craneww.com/site/assets/files/2374/monsoon-3.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+    overflow-x: auto ;
+    white-space: nowrap;
+}
+.main>h1{
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    background-color: white;
+    padding:10px;
+    border-radius: 50%;
+    font-size: 30px;
+    cursor:pointer;
+    transition: all linear 2s;
+    z-index: 9;
+}
+h1:active{
+   scale: 0.9;
+}
+.box1,.box2,.box3,.box4,.box5,.box6,.box7,.box8,.box9,.box10,.box11,.box12{
+    width: 400px;
+    height: 400px;
+    background-color: royalblue;
+    display: inline-block;
+    margin: 50px;
+    margin-top: 12%;
+    position:relative;
+    z-index: 1;
+}
+.box1{
+    background-image: url(https://cdn.theatlantic.com/thumbor/mnr7UpNJsa5Oce2VgsgfBOHN6j8=/249x0:1749x1125/1200x900/media/img/2023/04/0523_WEL_Johns_Ice_Cream_c16X9/original.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    border: 4px solid lightblue;
+}
+.box2{
+    background-image: url(https://images.mid-day.com/images/images/2023/may/Mix_d.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    border: 4px solid pink;
+}
+.box3{
+    background-image: url(https://thegirlonbloor.com/wp-content/uploads/2021/07/Summer-Drinks-15.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    border: 4px solid yellow;
+}
+.box4{
+    background-image: url(https://d4t7t8y8xqo0t.cloudfront.net/resized/750X436/eazytrendz%2F2409%2Ftrend20190513094844.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    border: 4px solid green;
+}
+.box5{
+    background-image: url(https://udaipurblog.com/wp-content/uploads/2013/12/gajar-ka-halwa.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* border-radius: 50%; */
+    border: 4px solid whitesmoke;
+}
+.box6{
+    background-image: url(https://wd-image.webdunia.com/image-conversion/process-aws.php?url=https://nonprod-media.webdunia.com/public_html/_media/hi/img/article/2021-11/25/full/1637831738-7226.jpg&w=&h=&outtype=webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* border-radius: 50%; */
+    border: 4px solid yellowgreen;
+}
+.box7{
+    background-image: url(https://cravecookclick.com/wp-content/uploads/2014/05/IMG_6005-660x440.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* border-radius: 50%; */
+    border: 4px solid brown;
+}
+.box8{
+    background-image: url(https://media.istockphoto.com/id/819949828/photo/late-evening-campfire-at-a-beatiful-canadian-chalet.jpg?s=612x612&w=0&k=20&c=sD663Ow_2NihMqeefmUiKW5xvBg-1C_ySA90CZuj17o=);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* border-radius: 50%; */
+    border: 4px solid orange;
+}
+.box9{
+    background-image: url(https://img-global.cpcdn.com/recipes/2f32fa34ddd72c83/680x482cq70/pakistani-street-style-corn-on-the-cob-aka-butta-recipe-main-photo.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    border: 4px solid #ED9C05;
+}
+.box10{
+    background-image: url(https://www.placestovisitmaharashtra.com/wp-content/uploads/2017/05/food_for_monsoon.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    border: 4px solid rgb(196, 187, 187);
+}
+.box11{
+    background-image: url(https://images.hindustantimes.com/img/2022/07/02/550x309/popcorn_1656748220843_1656748267957.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    border: 4px solid white ;
+}
+.box12{
+    background-image: url(https://media.easemytrip.com/media/Blog/India/636976865438740666/636976865438740666ohXdcD.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    border: 4px solid rgb(217, 38, 38) ;
+}
+.box1:hover, .box2:hover,.box3:hover,.box4:hover{
+    transform: scale(0.9);
+    transition: all linear .5s;
+    cursor: pointer;
+}
+.box7:hover, .box5:hover,.box6:hover,.box8:hover{
+    transform: scale(0.8);
+    transition: all linear .5s;
+    cursor: pointer;
+}
+.box9:hover, .box10:hover,.box11:hover,.box12:hover{
+    transform: scale(0.8);
+    transition: all linear .9s;
+    cursor: pointer;
+}
+.page3>h4{
+    position: absolute;
+    font-size: 40px;
+    background-color: white;
+    width: 45px;
+    border-radius:50px;
+    left: 2%;
+    top: 350%;
+    cursor: pointer;
+    transition: all linear 2s;
+    z-index: 9;
+}
+.page3>h5{
+    position: absolute;
+    font-size: 40px;
+    background-color: white;
+    width: 45px;
+    border-radius:50px;
+    right: 2%;
+    top: 350%;
+    cursor: pointer;
+    transition: all linear 2s;
+    z-index: 9;
+}
+
+.page2>h4{
+    position: absolute;
+    font-size: 40px;
+    background-color: white;
+    width: 45px;
+    border-radius:50px;
+    left: 2%;
+    top: 250%;
+    cursor: pointer;
+    transition: all linear 2s;
+    z-index: 9;
+}
+.page2>h5{
+    position: absolute;
+    font-size: 40px;
+    background-color: white;
+    width: 45px;
+    border-radius:50px;
+    right: 2%;
+    top: 250%;
+    cursor: pointer;
+    transition: all linear 2s;
+    z-index: 9;
+}
+.page1>h2{
+    position:absolute;
+    font-size: 40px;
+    background-color: white;
+    width: 45px;
+    border-radius:50px;
+    left: 2%;
+    top: 150%;
+    cursor: pointer;
+    transition: all linear 2s;
+    z-index: 9;
+}
+.page1>h3{
+    position: absolute;
+    font-size: 40px;
+    background-color: white;
+    width: 45px;
+    border-radius:50px;
+    right: 2%;
+    top: 150%;
+    cursor: pointer;
+    transition: all linear 2s;
+    z-index: 9;
+}
+ .page3::-webkit-scrollbar{
+    display: none;
+}
+.page1::-webkit-scrollbar{
+    display: none;
+}
+.page2::-webkit-scrollbar{
+    display: none;
+}
